@@ -18,7 +18,7 @@ export default function Routes() {
       <Route path="/profile" component={Profile} isPrivate />
       <Route path="/dashdududoido" component={Dashboard2} />
       {/* //Exemplo , porem nao sera utilizado na aula */}
-      {/* <Route path="/" component={() => <h1>404</h1>} /> */}
+      <Route path="/" component={() => <h1>404</h1>} />
     </Switch>
   );
 }
